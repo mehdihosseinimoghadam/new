@@ -8,16 +8,16 @@ def function2():
     result = 5 - 2
     print("Result of function2:", result)
 
-def function3():
+def function3(x, y):
     # Function 3 code here
-    result = 4 * 6
+    result = x * y
     print("Result of function3:", result)
 
 def main():
     # Call the functions here
     function1()
     function2()
-    function3()
+    function3(3,7)
 
 if __name__ == "__main__":
     main()
