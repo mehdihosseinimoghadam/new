@@ -26,5 +26,5 @@ if __name__ == "__main__":
     main()
     def function4():
         # Function 4 code here
-        result = np.mean(np.random.randint(1, 100, size=10))
+        result = np.mean(np.random.randint(1, 100, size=10))  # Added new conflict
         print("Result of function4:", result)
