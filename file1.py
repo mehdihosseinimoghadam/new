@@ -2,7 +2,7 @@ import numpy as np
 
 def function1():
     # Function 1 code here
-    result = np.sum(np.arange(1000))
+    result = np.sum(np.arange(2000))  # Different change to cause conflict
     print("Result of function1:", result)
 
 def function2(x):
